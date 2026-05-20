@@ -533,3 +533,116 @@ footer .link-group a:hover{
 .progress-value{
     color: #f8fafc;
 }
+/* FIX SECTION SPACING */
+.skill,
+.expertise,
+.experience,
+.portfolio,
+.certification,
+.blog,
+.contact {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+/* FIX MOBILE SKILL CARD */
+.progress-card{
+    margin-bottom: 30px;
+}
+
+/* FIX CARD SPACING */
+.service-card,
+.post .card,
+.certificationpost .card,
+.blogpost .card{
+    margin-bottom: 30px;
+}
+
+/* FIX HIDDEN TEXT */
+.progress-card .text{
+    color: #ffffff !important;
+    opacity: 1 !important;
+    z-index: 10;
+    position: relative;
+}
+
+/* FIX MOBILE OVERFLOW */
+body{
+    overflow-x: hidden;
+}
+
+/* MOBILE FIX */
+@media (max-width:768px){
+
+    .skill .row,
+    .expertise .row{
+        row-gap: 25px;
+    }
+
+    .progress-card{
+        padding: 30px 20px;
+    }
+
+    .service-card{
+        padding: 25px;
+    }
+
+    .heading h3{
+        margin-bottom: 20px;
+    }
+}
+/* PERFECT SECTION ALIGNMENT */
+.row{
+     --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 1.5rem;
+}
+
+/* FIX SKILL CARD OVERLAP */
+.progress-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    overflow: hidden;
+}
+
+/* FIX TEXT VISIBILITY */
+.progress-card .text{
+    display: block;
+    width: 100%;
+    text-align: center;
+    line-height: 1.6;
+}
+
+/* FIX EXPERTISE CARD HEIGHT */
+.service-card{
+    height: 100%;
+}
+
+/* FIX SECTION TITLE OVERLAP */
+.heading{
+    margin-bottom: 40px;
+}
+
+/* MOBILE FINAL FIX */
+@media (max-width:768px){
+
+    .progress-card{
+        min-height: 350px;
+    }
+
+    .circular-progress{
+        margin-top: 10px;
+    }
+
+    .heading{
+        margin-bottom: 25px;
+    }
+
+    .skill,
+    .expertise,
+    .experience{
+        padding-top: 60px;
+    }
+}
