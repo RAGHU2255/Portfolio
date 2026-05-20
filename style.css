@@ -448,3 +448,12 @@ footer .link-group a:hover{
     background-color: #1f2937;
     color: #f8fafc;
 }
+.expertise,
+.skill,
+.experience,
+.portfolio,
+.certification,
+.blog {
+    background-color: #111827;
+    margin-top: 0 !important;
+}
