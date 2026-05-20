@@ -191,11 +191,12 @@ body{
     color: #20c997;
 }
 .reactjs-progress{
-    color: #0f172a;
+    color: #a78bfa;
 }
 .text{
-    font-size: 1.2rem;
-    font-weight: 500;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #f8fafc;
 }
 .heading p{
     font-size: 1.3rem;
@@ -458,6 +459,9 @@ footer .link-group a:hover{
     margin-top: 0 !important;
 }
 @media (max-width: 768px) {
+    .home{
+    padding-top: 80px;
+}
 
     .home h2{
         font-size: 2rem;
@@ -486,6 +490,8 @@ footer .link-group a:hover{
 
     .progress-card{
         margin-top: 20px;
+        min-height: 320px;
+        padding: 20px;
     }
 
     .service-card{
@@ -507,6 +513,23 @@ footer .link-group a:hover{
     }
 
     .text{
+        color: #f8fafc;
         font-size: 1rem;
     }
+}
+.progress-card{
+    min-height: 320px;
+}
+
+.text{
+    color: #f8fafc !important;
+    opacity: 1 !important;
+}
+
+.circular-progress{
+    margin: auto;
+}
+
+.progress-value{
+    color: #f8fafc;
 }
