@@ -122,12 +122,12 @@ body{
 }
 .heading h3{
     margin-top: 0.5rem;
-    color: #0f172a;
+     color: #f8fafc;
     font-size: 2.5rem;
     font-weight: 700;
 }
 .expertise h4{
-    color: #0f172a;
+    color: #f8fafc;
     font-weight: 700;
 }
 .expertise a{
@@ -149,7 +149,7 @@ body{
 }
 .progress-card{
     padding: 12% 10% 10% 15%;
-    background-color: #fff;
+    background-color: #1f2937;
     text-align: center;
     border-radius: 10%;
 }
@@ -229,7 +229,6 @@ body{
 .post .card{
     background-color: #1f2937;
 color: #f8fafc;
-color: #f8fafc;
 }
 
 /* testimonial section starts */
@@ -261,7 +260,7 @@ color: #f8fafc;
 }
 /* certification section starts */
 .certification {
-    background-color: #f2f2ff;
+     background-color: #111827;
 }
 .certification .certificationpost .card {
     background-color: #1f2937;
@@ -278,7 +277,7 @@ color: #f8fafc;
     font-size: 1.1rem;
 }
 .certification .certificationpost h4, .certificationpost a {
-    color: #0f172a;
+    color: #f8fafc;
     font-weight: 700;
     margin-top: 1rem;
     text-decoration: none;
@@ -314,7 +313,7 @@ color: #f8fafc;
     font-size: 1.1rem;
 }
 .blog .blogpost h4,.blogpost a{
-    color: #0f172a;
+    color: #f8fafc;
     font-weight: 700;
     margin-top: 1rem;
     text-decoration: none;
@@ -438,4 +437,14 @@ footer .link-group a:hover{
 .blogpost h4,
 .certificationpost h4 {
     color: #f8fafc !important;
+}
+.expertise,
+.portfolio,
+.experience {
+    background-color: #111827;
+    color: #f8fafc;
+}
+.service-card{
+    background-color: #1f2937;
+    color: #f8fafc;
 }
