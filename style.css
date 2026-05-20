@@ -12,15 +12,14 @@ body{
 }
 /* styling navbar links  */
 .navbar-nav a{
-    color: black;
+    color: #f8fafc;
     position: relative;
 }
 .navbar-nav a:hover{
     color: #38bdf8;
 }
 .navbar{
-    background-color: #111827 !important;
-    <a class="navbar-brand fw-bold fs-2" href="#" style="color: #f8fafc">
+     background-color: #111827 !important;
 }
 .navbar-nav a:after {    
     background: none repeat scroll 0 0 transparent;
