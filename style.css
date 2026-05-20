@@ -592,9 +592,12 @@ body{
     }
 }
 /* PERFECT SECTION ALIGNMENT */
-.row{
-     --bs-gutter-x: 1.5rem;
-    --bs-gutter-y: 1.5rem;
+.expertise .row,
+.skill .row,
+.portfolio .row,
+.certification .row,
+.blog .row{
+    row-gap: 35px;
 }
 
 /* FIX SKILL CARD OVERLAP */
@@ -644,5 +647,31 @@ body{
     .expertise,
     .experience{
         padding-top: 60px;
+    }
+}
+/* DESKTOP GAP FIX */
+@media (min-width: 992px){
+
+    .service-card,
+    .progress-card,
+    .post .card,
+    .certificationpost .card,
+    .blogpost .card{
+        margin-bottom: 35px;
+    }
+
+
+    .expertise .col-lg-4,
+    .portfolio .col-lg-4,
+    .certification .col-lg-4,
+    .blog .col-lg-4{
+        display: flex;
+    }
+
+    .service-card,
+    .post .card,
+    .certificationpost .card,
+    .blogpost .card{
+        width: 100%;
     }
 }
