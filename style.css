@@ -2,6 +2,9 @@
 body{
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 400;
+     overflow-x: hidden;
+    background-color: #111827;
+
 }
 /* styling menu icon */
 .nav-menu{
@@ -69,7 +72,7 @@ body{
     background: #2563eb;
     color: #fff;
     transform: translateY(-20px);
-    transition-duration: 1s;
+    transition: 0.4s ease;
 }
 .link{
     text-decoration: none;
@@ -151,10 +154,10 @@ body{
     padding: 12% 10% 10% 15%;
     background-color: #1f2937;
     text-align: center;
-    border-radius: 10%;
+    border-radius: 20px;
 }
 .progress-card:hover{
-    transform: scale(1.1,1.1);
+     transform: translateY(-8px);
     background-color: #1f2937;
     transition-duration: 0.6s;
 }
@@ -235,7 +238,7 @@ color: #f8fafc;
 /* testimonial section starts */
 .testimonial img:hover{
     transform: scale(1.2,1.2);
-    transition-duration: 1s;
+    transition: 0.4s ease;
 }
 .testimonial h4{
     color: #0f172a;
@@ -252,12 +255,12 @@ color: #f8fafc;
 .prev:hover,.prev-btn:hover{
     color:#2563eb;
     transform: translateX(-10px);
-    transition-duration: 1s;
+    transition: 0.4s ease;
 }
 .next:hover,.next-btn:hover{
     color:#2563eb;
     transform: translateX(10px);
-    transition-duration: 1s;
+    transition: 0.4s ease;
 }
 /* certification section starts */
 .certification {
@@ -399,7 +402,7 @@ footer .link-group a:hover{
 .social-links button:hover{
     color: #fff;
     transform: translateY(-20px);
-    transition-duration: 1s;
+    transition: 0.4s ease;
 }
 .social-links .dribble:hover{
     background-color: #f33a7e;
@@ -567,9 +570,7 @@ footer .link-group a:hover{
 }
 
 /* FIX MOBILE OVERFLOW */
-body{
-    overflow-x: hidden;
-}
+
 
 /* MOBILE FIX */
 @media (max-width:768px){
@@ -681,4 +682,37 @@ body{
         margin-top: 25px;
     }
 
+}
+.card-img-top{
+    height: 220px;
+    object-fit: cover;
+}
+.card:hover,
+.service-card:hover,
+.progress-card:hover{
+    transform: translateY(-8px);
+    transition: 0.4s ease;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* Better card shadow */
+.card,
+.service-card,
+.progress-card{
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+/* Smooth image hover */
+.card-img-top{
+    transition: 0.4s ease;
+}
+
+.card:hover .card-img-top{
+    transform: scale(1.03);
+}
+
+/* Better button transition */
+.c-btn{
+    transition: 0.3s ease;
 }
